@@ -1,5 +1,5 @@
 import { doc, getDoc } from "firebase/firestore";
-import { initDB } from "../../lib/firebase/initDB";
+import { initDB } from "../../lib/initDB";
 
 export default async function places(req, res) {
   return new Promise(async (resolve) => {
